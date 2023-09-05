@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# JetBrains IDEs (e.g. PyCharm)
+.idea/
+
+# Operating System Files
+.DS_Store
