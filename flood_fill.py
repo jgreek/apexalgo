@@ -1,5 +1,6 @@
 from typing import List
 
+
 class ImageFloodFill:
     """
     The Flood Fill algorithm is similar to the bucket tool in MS Paint.

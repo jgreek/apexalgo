@@ -7,9 +7,11 @@ def groupAnagrams(strs):
     [cache.setdefault(tuple(sorted(s)), []).append(s) for s in strs]
     return list(cache.values())
 
+
 # Test cases
 def deep_sort(lst):
     return sorted([sorted(sublist) for sublist in lst])
+
 
 # Test case 1: Basic test with multiple anagrams.
 strs1 = ["eat", "tea", "tan", "ant", "bat"]

@@ -9,6 +9,7 @@ class Solution(object):
         tops = Counter(nums).most_common(k)
         return [top[0] for top in tops]
 
+
 # Test cases
 solution = Solution()
 
